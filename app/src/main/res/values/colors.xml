@@ -7,4 +7,13 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="primarioColor">#ffa012</color>
+    <color name="titulosColor">#515151</color>
+    <color name="inactivoColor">#707070</color>
+    <color name="linksColor">#7bc2ff</color>
+    <color name="carritoColor">#00b37e</color>
+    <color name="subtitulosColor">#cccccc</color>
+    <color name="fondoColor">#f5f5f5</color>
+    <color name="fondoTarjetaColor">#ffffff</color>
+    <color name="camposColor">#efefef</color>
 </resources>
