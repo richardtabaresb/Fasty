@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="bezzier.fasty">
+    package="bezzier.fasty" >
 
     <application
         android:allowBackup="true"
@@ -8,11 +8,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".login"></activity>
-        <activity android:name=".datospersonales" />
-        <activity android:name=".registro" />
-        <activity android:name=".MainActivity">
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".login" />
+        <activity android:name=".datospersonales"/>
+        <activity android:name=".registro" android:theme="@style/themeSplash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,9 +20,9 @@
             </intent-filter>
         </activity>
 
-        <meta-data
-            android:name="preloaded_fonts"
-            android:resource="@array/preloaded_fonts" />
+<!--        <meta-data-->
+<!--            android:name="preloaded_fonts"-->
+<!--            android:resource="@array/preloaded_fonts" />-->
     </application>
 
 </manifest>
